@@ -1,0 +1,30 @@
+@use "variaveis" as *;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 100%;
+}
+
+body {
+  min-width: 20rem;
+  background: $cor-fundo;
+  color: $cor-texto;
+  font-family: $fonte-principal;
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

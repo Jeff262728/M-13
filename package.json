@@ -1,0 +1,12 @@
+{
+  "name": "agencia-pixel",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sass": "sass scss/estilos.scss css/style.css",
+    "sass:watch": "sass --watch scss/estilos.scss:css/style.css"
+  },
+  "devDependencies": {
+    "sass": "^1.89.0"
+  }
+}
